@@ -1,0 +1,11 @@
+name = input("Enter your name:")
+print(name)
+
+age = 18
+print(type(age))
+
+is_student = True	
+print(is_student)
+
+score = 80.99
+print(isinstance(score, float())
