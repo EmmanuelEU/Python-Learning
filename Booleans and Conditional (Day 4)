@@ -1,0 +1,89 @@
+Operator Name Description
+
+
+==
+
+Equal Checks if two values are equal
+
+
+!=
+
+
+Not equal Checks if two values are not equal
+
+
+>
+
+
+Greater than Checks if the value on the left is greater than the value on the right
+
+
+<
+
+
+Less than Checks if the value on the left is less than the value on the right
+
+
+>=
+
+
+Greater than or equalChecks if the value on the left is greater than or equal to the value on the right
+
+```
+<=
+```
+
+Less than or equalChecks if the value on the left is less than or equal to the value on the right
+
+### **`if` statement**
+
+Checks a condition. If it's true, do something.
+
+```python
+age= 18
+
+if age>= 18:
+    print("Adult")
+```
+
+### **`else`**
+
+Runs when the **`if`** condition is false.
+
+```python
+age= 15
+
+if age>= 18:
+    print("Adult")
+else:
+    print("Not an adult")
+```
+
+### **`elif`**
+
+Means **"else if"**. It checks another condition if the first one was false.
+
+```python
+age= 15
+
+if age>= 18:
+    print("Adult")
+elif age>= 13:
+    print("Teenager")
+else:
+    print("Child")
+```
+
+### **`bool()`**
+
+Checks whether a value is **truthy or falsy**.
+
+```python
+print(bool(5))
+```
+
+This gives:
+
+**`True`**
+
+Because **`5`** is truthy.
