@@ -1,0 +1,21 @@
+Integers and floats are the primary numeric data types in Python. You can store numeric data and perform mathematical operations.
+
+Integers are whole numbers without decimal points
+
+Float are positive or negative numbers with decimal points
+
+Round():Round numbers to specified number of decimal places
+
+Abs():Returns the absolute value of number 
+
+Pow():Raises a number to the power of another or performs modular expontetnation.
+
+-=:subtracts the right operand from the left variable and stores the difference in the left variable
+
+*=: multiples the left variable by the right operand and stores the product back in the left variable
+
+/=:divides the left variable by the right and stores the result back in the left variable
+
+//=: floor‑divides the left variable by the right and stores the result back in the left variable
+
+**=:raises the left variable to the power of the right and stores the result back in the left variable
